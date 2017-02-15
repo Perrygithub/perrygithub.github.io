@@ -1,4 +1,5 @@
 
+        
         body {
             background-image:url(http://www.foundsf.org/images/e/e7/Sf-skyline-2009-from-ti_5198.jpg)
         }
@@ -24,3 +25,6 @@
             background-image: violet;
             border: 10xp dotted green
              }
+        .white {
+            color: white;
+        }
