@@ -1,0 +1,37 @@
+<html>
+   <head>
+     <title>Dice roller</title>
+       <style>
+       
+       
+       
+       
+   </head>
+   
+   <body>
+       </style>   
+     <img width= 150 onmouseover="changeimage(this)" onclick="diceroll();"
+          src="http://sweaglesw.org/dicewizard/dice-icon.png">
+     <div id="output">       </div>
+    
+     <script>
+     function changeimage(id)  {id.src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Dice.svg/2000px-Dice.svg.png";}
+                              
+     //this is to change the image when mouseover
+     function diceroll(){
+     //diceroll is name of the thing, has no effect on code
+     var randnm = Math.floor(Math.random()* 6) + 1;
+         
+         document.getElementById("output").innerHTML= randnm;
+     } //randnm spelled wrong on purpose
+     
+     
+     
+     </script>
+       
+    </body>   
+
+</html>
+
+
+
